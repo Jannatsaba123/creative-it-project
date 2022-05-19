@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+                
+.align-center {
+    align-items: center;
+}
+
+
+
+.body{
+    font-family: 'Arimo', sans-serif;
+    
+}
+/* header style start here */
+header {
+    background-color: #ee2e24;
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    padding: 8px 0px;
+}
+
+header .latest{
+    width: 30%;
+    font-size: 18px;
+}
+ul{
+   list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+header .message{
+    width: 70%;
+}
+/* header ends here */
+
+/* nav starts here */
+
+nav{
+    background-color: #fff;
+}
+
+nav .logo{
+    width: 30%;
+}
+
+nav .menu{
+    width: 70%;
+    background-color: #fff;
+ 
+}
+
+nav .menu ul {
+    text-align: right;
+}
+
+nav .menu ul li {
+    display: inline-block;
+}
+
+nav .menu ul li a{
+    color: #444;
+    font-family: 'Arimo', sans-serif;
+    text-transform: capitalize;
+    padding: 30px 25px;
+    font-size: 16px;
+    display: block;
+    transition: 0.3s;
+}
+
+nav .menu ul li:hover a{
+    color: red;
+}
+
+nav .menu ul li:last-child a{
+    background-color: #ee2e24;
+    color: white;
+}
+
+#banner img{
+    width: 100%;
+    display: block;
+}
+
+/* about starts here */
+
+#about{
+    padding: 40px;
+    background-color: #fff;
+}
+
+ #about .about-img{
+    width: 40%;             
+}
+#about .about-img img{
+    width: 100%;
+    display: block;
+}
+#about .about-text{
+    width: 60%;
+    padding: 0px 30px;
+}
+
+#about .about-text h2{
+    font-family: 'Arimo', sans-serif;
+    color: #5b6b80;
+    font-size: 32px;
+    display: inline-block;
+    margin-bottom:  20px;
+}
+
+#about .about-text p{
+    font-family: 'Arimo', sans-serif;
+    color: #777;
+    font-size: 16px;
+    padding-top: 12px;
+    line-height: 26px;
+}
+/* about ends here */
+
+
+/* table starts here */
+
+#seminar {
+    background-color: #f5f5f5;
+}
+
+.card {
+    margin: 10px 10px;
+    padding: 55px 10px;
+}
+
+
+.card-header{
+    background-color: #dddddda3;
+    font-size: 32px;
+    color: #444;;
+    border-bottom: none;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    padding: 20px 15px;
+    display: block;
+}
+
+.card-body{
+    background-color: white;
+    padding: 35px 20px;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    display: table;
+}
+
+.table th{
+    background-color: #49596d;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    border-right: 1px solid #fff;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 50px;
+    border-bottom: 1px solid #32383e;;
+}
+
+.table td{
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    color: #222;
+    font-size: 16px;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #dddddda3;;
+}
+
+.table td a{
+    text-decoration: none;
+    display: block;
+    background-color:  #49596d;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 8px;
+    margin: 0px 42px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.table td:hover a{
+    background-color: #ee2e24;
+}
